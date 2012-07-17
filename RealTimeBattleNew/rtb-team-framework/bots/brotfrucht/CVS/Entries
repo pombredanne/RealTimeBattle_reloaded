@@ -1,0 +1,24 @@
+/bfclientbasicstate.cpp/1.3/Tue Apr 12 14:06:27 2005//
+/bfclientbasicstate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientshoothalfstate.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientshoothalfstate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientshoottwicestate.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientshoottwicestate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientspecificrepository.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientspecificrepository.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfclientstateenum.h/1.2/Thu Feb 24 10:27:53 2005//
+/bffactory.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bffactory.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfinternalserverspecificrepository.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfinternalserverspecificrepository.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfserverbasicstate.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfserverbasicstate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfservernorotatestate.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfservernorotatestate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfserverrotatestate.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfserverrotatestate.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfserverstateenum.h/1.2/Thu Feb 24 10:27:53 2005//
+/bfsharedserverspecificrepository.cpp/1.2/Thu Feb 24 10:27:53 2005//
+/bfsharedserverspecificrepository.h/1.2/Thu Feb 24 10:27:53 2005//
+/brotfruchtnamespace.h/1.2/Thu Feb 24 10:27:53 2005//
+D

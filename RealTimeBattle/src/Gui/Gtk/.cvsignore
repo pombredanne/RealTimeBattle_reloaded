@@ -1,0 +1,7 @@
+Makefile
+Makefile.in
+.deps
+TAGS
+*.lo
+.libs
+libRTBGui_Gtk.la

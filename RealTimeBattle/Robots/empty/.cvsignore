@@ -1,0 +1,6 @@
+Makefile
+Makefile.in
+*.robot
+TAGS
+.deps
+.libs

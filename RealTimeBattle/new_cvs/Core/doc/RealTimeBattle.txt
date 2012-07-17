@@ -1,0 +1,2 @@
+rtbcore-doc.tgz : documentation for how to use the core without the gui
+rtb_in_uml : a doc of the src, using PoseidonCE2 by gentleware

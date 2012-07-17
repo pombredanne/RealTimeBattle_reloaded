@@ -1,0 +1,25 @@
+/.cvsignore/1.2/Tue Dec  7 18:31:16 1999//
+/ChangeLog/1.1/Tue Jul 27 20:06:13 1999//
+/Makefile.in/1.1/Tue Jul 27 20:06:15 1999//
+/VERSION/1.1/Tue Jul 27 20:06:16 1999//
+/bindtextdom.c/1.1/Tue Jul 27 20:06:17 1999//
+/cat-compat.c/1.1/Tue Jul 27 20:06:18 1999//
+/dcgettext.c/1.1/Tue Jul 27 20:06:19 1999//
+/dgettext.c/1.1/Tue Jul 27 20:06:20 1999//
+/explodename.c/1.1/Tue Jul 27 20:06:20 1999//
+/finddomain.c/1.1/Tue Jul 27 20:06:21 1999//
+/gettext.c/1.1/Tue Jul 27 20:06:22 1999//
+/gettext.h/1.1/Tue Jul 27 20:06:27 1999//
+/gettextP.h/1.1/Tue Jul 27 20:06:28 1999//
+/hash-string.h/1.1/Tue Jul 27 20:06:29 1999//
+/intl-compat.c/1.1/Tue Jul 27 20:06:23 1999//
+/l10nflist.c/1.1/Tue Jul 27 20:06:24 1999//
+/libgettext.h/1.1/Tue Jul 27 20:06:30 1999//
+/linux-msg.sed/1.1/Tue Jul 27 20:06:32 1999//
+/loadinfo.h/1.1/Tue Jul 27 20:06:31 1999//
+/loadmsgcat.c/1.1/Tue Jul 27 20:06:25 1999//
+/localealias.c/1.1/Tue Jul 27 20:06:26 1999//
+/po2tbl.sed.in/1.1/Tue Jul 27 20:06:32 1999//
+/textdomain.c/1.1/Tue Jul 27 20:06:26 1999//
+/xopen-msg.sed/1.1/Tue Jul 27 20:06:34 1999//
+D
