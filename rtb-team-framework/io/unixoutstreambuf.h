@@ -34,6 +34,7 @@
 #include "../exceptions/ioexception.h"
 #include <iostream>
 #include <memory>
+#include <cstdio>
 
 /**
  * Namespace IO

@@ -34,6 +34,7 @@
 #include "../exceptions/ioexception.h"
 #include <iostream>
 #include <memory>
+#include <cstdio>
 
 
 /**
@@ -41,6 +42,7 @@
 */
 namespace IO {
 
+	//using std::EOF;
 	using std::streambuf;
 	using std::bad_exception;
 	using Exceptions::IOException;
