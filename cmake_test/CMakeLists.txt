@@ -33,11 +33,8 @@ SET (SRC
 	src/ArenaReplay.cc
 	src/Robot.cc
 	src/ArenaController.cc
-	src/Makefile.in
-	src/Makefile.am
 	src/GeometricalObjects.cc
 	src/ControlWindow.cc
-	src/Makefile
 	src/ArenaRealTime.cc
 	src/ClientInterface.cc
 	src/StatisticsWindow.cc
@@ -60,7 +57,7 @@ INCLUDE_DIRECTORIES (${GTK2_INCLUDE_DIRS})
 LINK_DIRECTORIES (${GTK2_LIBRARY_DIRS})
 ADD_DEFINITIONS (${GTK2_CFLAGS_OTHER})
 
-ADD_DEFINITIONS(-D VERSION=666)
+ADD_DEFINITIONS(-D VERSION=666 -D NDEBUG -g)
 
 ADD_EXECUTABLE(RealtimeBattle_reloaded ${SRC})
 
