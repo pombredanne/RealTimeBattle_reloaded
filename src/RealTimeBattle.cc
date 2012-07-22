@@ -207,7 +207,8 @@ sigfpe_handler(int signum)
 void
 parse_command_line(int argc, char **argv)
 {
-  int version_flag=false, help_flag=false, graphics_flag=true;int port=32134;
+  int version_flag=false, help_flag=false, graphics_flag=true;
+  int port=32134;
   int c;
   istringstream string2number;
 
