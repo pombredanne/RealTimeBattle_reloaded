@@ -26,7 +26,7 @@ SEND_ROTATION_REACHED=1
 SIGNAL=2
 USE_NON_BLOCKING=3
 
-RTB_PATH=@ROBOTDIR@/jBot
+RTB_PATH=/home/md/proyectos/RealTimeBattle_reloaded/Robots/jBot/
 RobotName=JBot
 SLEEP=1
 
@@ -35,4 +35,5 @@ echo RobotOption $SEND_ROTATION_REACHED 1
 echo RobotOption $SIGNAL 0
 echo RobotOption $USE_NON_BLOCKING 1
 # program options: 1=SLEEP in [ms], 2=Robot Name
-exec @JAVA@ -classpath $CLASSPATH:$RTB_PATH JBotMain $SLEEP $RobotName
+#exec java -classpath $CLASSPATH:$RTB_PATH JBotMain $SLEEP $RobotName
+exec java JBotMain $SLEEP $RobotName

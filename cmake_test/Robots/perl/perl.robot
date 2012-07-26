@@ -1,4 +1,4 @@
-#! @PERL_SHEBANG@
+#!/usr/bin/perl
 
 use strict;
 use IO::Handle;
