@@ -50,13 +50,16 @@ SET (SRC
 
 INCLUDE_DIRECTORIES(include)
 
+#---------INIT MAGICAL CODE FOR CHECK GTK-------------------------------
 #Magic code (I unknown how to run) for gtk check.
 FIND_PACKAGE (PkgConfig REQUIRED)
 PKG_CHECK_MODULES (GTK2 REQUIRED gtk+-2.0)
 INCLUDE_DIRECTORIES (${GTK2_INCLUDE_DIRS})
 LINK_DIRECTORIES (${GTK2_LIBRARY_DIRS})
 ADD_DEFINITIONS (${GTK2_CFLAGS_OTHER})
+#---------END MAGICAL CODE FOR CHECK GTK--------------------------------
 
+#Set defines for the compilation
 ADD_DEFINITIONS(-D VERSION=666 -D NDEBUG -g)
 
 ADD_EXECUTABLE(RealtimeBattle_reloaded ${SRC})
