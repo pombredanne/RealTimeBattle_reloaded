@@ -23,6 +23,7 @@ PROJECT (thomas2)
 #message(${GLIB_INCLUDE_DIR})
 #INCLUDE_DIRECTORIES(${GLIB_INCLUDE_DIR})
 
+# Not it is good beause the Thommas2 robot only needs glib
 #---------INIT MAGICAL CODE FOR CHECK GTK-------------------------------
 #Magic code (I unknown how to run) for gtk check.
 FIND_PACKAGE (PkgConfig REQUIRED)
@@ -31,6 +32,8 @@ INCLUDE_DIRECTORIES (${GTK2_INCLUDE_DIRS})
 LINK_DIRECTORIES (${GTK2_LIBRARY_DIRS})
 ADD_DEFINITIONS (${GTK2_CFLAGS_OTHER})
 #---------END MAGICAL CODE FOR CHECK GTK--------------------------------
+
+INCLUDE_DIRECTORIES(../../RealtimeBattle/include/)
 
 SET (SRC
 	thomas2.cc)
