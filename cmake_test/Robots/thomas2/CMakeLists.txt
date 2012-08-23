@@ -16,7 +16,7 @@
 #Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
 cmake_minimum_required(VERSION 2.4)
-message("GENERANDO MAKEFILE")
+
 PROJECT (thomas2)
 
 #FIND_PATH(GLIB_INCLUDE_DIR NAMES glib.h PATH_SUFFIXES glib-2.0)
