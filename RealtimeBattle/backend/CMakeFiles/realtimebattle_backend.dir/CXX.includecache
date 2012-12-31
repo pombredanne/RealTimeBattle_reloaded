@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/md/proyectos/RealTimeBattle_reloaded/RealtimeBattle/backend/src/main.cpp
+iostream
+-
+libintl.h
+-
+
